@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Build output and tool caches
+dist/
+build/
+out/
+.vite/
+.cache/
+.turbo/
+.next/
+coverage/
+
+# Environment files and local secrets
+.env*
+!.env.example
+
+# Runtime files and logs
+*.log
+logs/
+*.pid
+*.pid.lock
+*.seed
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+*.code-workspace
+*.swp
+*.swo
+
+# Local certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.jks
+*.keystore
