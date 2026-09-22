@@ -4,11 +4,12 @@
   "description": "React frontend for ARL website MVP",
   "type": "module",
   "scripts": {
-    "dev": "vite --host 192.168.1.29 --port 5177",
-    "dev:central": "vite --host 192.168.1.29 --port 5173",
-    "dev:host": "vite --host 0.0.0.0 --port 5173",
+    "dev": "vite",
+    "dev:central": "vite",
+    "dev:host": "vite --host 0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --host 0.0.0.0",
+    "start": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",
